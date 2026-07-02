@@ -3,148 +3,158 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Document</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
-
   <body>
-    <!-- NAVBAR -->
-
-    <nav class="navbar navbar-expand-lg px-5">
-      <a class="navbar-brand text-white" href="#"> Portfolio </a>
-
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNavAltMarkup"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div
-        class="collapse navbar-collapse justify-content-end"
-        id="navbarNavAltMarkup"
-      >
-        <div class="navbar-nav">
-          <a class="nav-link text-white active" href="#hero"> Home </a>
-          <a class="nav-link text-white" href="#about"> About </a>
-          <a class="nav-link text-white" href="#skills"> Skill </a>
-          <a class="nav-link text-white" href="#project"> project </a>
-          <a class="nav-link text-white" href="#footer"> Contact </a>
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark fixed-top">
+      <div class="container px-3">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
-    <!-- HERO -->
 
     <section class="hero" id="hero">
       <div class="container">
-        <div class="row align-items-center">
-          <!-- TEXT KIRI -->
-
-          <div class="col-lg-6">
-            <h1 data-aos="fade-right">Portofolio</h1>
-
-            <h2 data-aos="fade-right" data-aos-delay="200">
-              Muhammad Fachreza Aryanagara
-            </h2>
-            <p class="desc" data-aos="fade-right" data-aos-delay="400">
+        <div class="row align-items-center vh-100">
+          <div class="col-lg-7">
+            <h5 class="text-secondary fw-normal display-6">
+              Welcome to My Portfolio
+            </h5>
+            <h1 class="display-1 fw-bold">Muhammad Fachreza Aryanagara</h1>
+            <p class="fs-4 text-secondary my-4">
               Pelajar yang ingin belajar lebih banyak tentang dunia pemrograman,
               terutama di backend development. Saya ingin mengembangkan
               kemampuan saya dalam membangun aplikasi web yang efisien dan aman.
             </p>
-
-            <div class="button-group" data-aos="fade-up" data-aos-delay="600">
-              <a href="#about"
-                ><button class="btn-primary">Kenali Saya</button></a
-              >
-
-              <a href="#project"
-                ><button class="btn-secondary">Karya Saya</button></a
-              >
+            <div class="d-flex gap-3">
+              <a href="#about" class="btn btn-outline-dark btn-lg px-4">
+                About Me
+              </a>
+              <a href="#contact" class="btn btn-dark btn-lg px-4">
+                Contact Me
+              </a>
             </div>
           </div>
-          <!-- GAMBAR KANAN -->
-          <div class="col-lg-6 text-center">
-            <div class="profile-card" data-aos="zoom-in-up">
-              <img src="img/fachreza.jpeg" alt="Profile Image" />
+          <div class="col-lg-5 text-end">
+            <img
+              src="img/fachreza.jpeg"
+              class="img-fluid rounded-5 border border-dark"
+              alt="Foto"
+              style="max-width: 450px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about py-5" id="about">
+      <div class="container">
+        <div class="row justify-content-center align-items-center vh-100">
+          <div class="col-lg-8">
+            <div class="shadow p-5 bg-body-tertiary rounded-4">
+              <h1 class="display-4 fw-bold text-center mb-4">About Me</h1>
+              <p class="fs-5 text-secondary text-center">
+                Halo, nama saya Muhammad Fachreza Aryanagara. Saya seorang
+                pelajar yang memiliki minat besar dalam dunia pemrograman,
+                khususnya di bidang backend development. Saya ingin terus
+                belajar dan mengembangkan kemampuan saya dalam membangun
+                aplikasi web yang efisien dan aman.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- ABOUT -->
-    <section class="about" id="about">
+
+    <section class="skills py-5" id="skills">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-10">
-            <div class="card about-card" data-aos="fade-up">
-              <div class="card-body text-center">
-                <h2 class="card-title">Tentang Saya</h2>
-                <p class="card-text">
-                  Halo, saya Muhammad Fachreza Aryanagara. Saya adalah seorang
-                  pelajar yang tertarik dengan dunia pemrograman, terutama
-                  backend development. Saya sedang belajar membuat aplikasi
-                  web,mengembangkan logika pemrograman, serta meningkatkan
-                  kemampuansaya dalam membangun sistem yang efisien dan aman.
-                  Sayamemiliki semangat untuk terus belajar dan mengembangkan
-                  skilldi bidang teknologi.
+            <div class="card shadow-lg border-0 rounded-4">
+              <div class="card-body p-5">
+                <h2 class="text-center fw-bold mb-3">Skills</h2>
+                <p class="text-center text-secondary mb-5">
+                  Saya memiliki skills dalam beberapa bahasa pemrograman.
                 </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- SKILLS -->
-    <section class="skills" id="skills">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-10">
-            <div class="card skills-card" data-aos="fade-up">
-              <div class="card-body">
-                <h2 class="card-title text-center">Kemampuan Saya</h2>
-
-                <p class="card-text text-center">
-                  Saya memiliki kemampuan dalam beberapa bahasa pemrograman
-                </p>
-
-                <div class="skill-list">
-                  <div class="skill-item">
-                    <h4>HTML</h4>
-                    <p>
-                      Untuk html sendiri saya bisa di bilang sudah cukup
-                      menguasai di bahasa pemrograman ini
-                    </p>
+                <div class="row g-4">
+                  <div class="col-md-6">
+                    <div
+                      class="border-start border-4 border-success ps-3 h-100"
+                    >
+                      <h4 class="fw-bold">HTML</h4>
+                      <p class="text-secondary mb-0">
+                        Untuk HTML sendiri saya bisa dibilang sudah cukup
+                        menguasai bahasa pemrograman ini.
+                      </p>
+                    </div>
                   </div>
-
-                  <div class="skill-item">
-                    <h4>CSS</h4>
-                    <p>
-                      Untuk CSS saya kurang mencukupi untuk styling web dan
-                      masih perlu banyak belajar lagi untuk menguasai CSS
-                    </p>
+                  <div class="col-md-6">
+                    <div
+                      class="border-start border-4 border-success ps-3 h-100"
+                    >
+                      <h4 class="fw-bold">CSS</h4>
+                      <p class="text-secondary mb-0">
+                        Untuk CSS saya masih perlu banyak belajar agar lebih
+                        menguasai styling website.
+                      </p>
+                    </div>
                   </div>
-
-                  <div class="skill-item">
-                    <h4>JAVASCRIPT</h4>
-                    <p>
-                      Untuk javascript saya masih perlu banyak belajar lagi
-                      untuk menguasai bahasa pemrograman ini
-                    </p>
+                  <div class="col-md-6">
+                    <div
+                      class="border-start border-4 border-success ps-3 h-100"
+                    >
+                      <h4 class="fw-bold">JavaScript</h4>
+                      <p class="text-secondary mb-0">
+                        Untuk JavaScript saya masih perlu banyak belajar lagi
+                        agar lebih menguasai bahasa pemrograman ini.
+                      </p>
+                    </div>
                   </div>
-
-                  <div class="skill-item">
-                    <h4>PHP</h4>
-                    <p>
-                      Untuk php saya bisa di bilang sudah cukup menguasai di
-                      bahasa pemrograman ini
-                    </p>
+                  <div class="col-md-6">
+                    <div
+                      class="border-start border-4 border-success ps-3 h-100"
+                    >
+                      <h4 class="fw-bold">PHP</h4>
+                      <p class="text-secondary mb-0">
+                        Untuk PHP saya bisa dibilang sudah cukup menguasai
+                        bahasa pemrograman ini.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -153,39 +163,61 @@
         </div>
       </div>
     </section>
-    <!-- PROJECTS -->
-    <section class="project" id="project">
-      <div class="container">
-        <div class="row">
-          <div class="col-6 d-flex justify-content-center">
-            <div class="card-project1" data-aos="fade-up">
-              <img src="img/project 1.png" class="card-img-top" alt="Project 1" />
-              <div class="card-body">
-                <h5 class="card-title">Management Magang</h5>
-                <p class="card-text">
-                  Disini saya membuat suatu project untuk mengelola data magang, fiturnya ada absensi dan mengerjakan atau memberikan tugas
-                </p>
-              </div>
-            </div>
+    <section class="project py-5" id="project">
+  <div class="container">
+
+    <!-- Judul -->
+    <div class="row mb-5">
+      <div class="col text-center">
+        <h2 class="fw-bold">My Projects</h2>
+        <p class="text-secondary">
+          Beberapa project yang pernah saya kerjakan.
+        </p>
+      </div>
+    </div>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-6 col-lg-5">
+        <div class="card shadow h-100">
+          <img src="img/Semarang.png" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Website Promosi Semarang</h5>
+            <p class="card-text text-secondary">
+              Website promosi kota Semarang yang dibuat menggunakan HTML,
+              Bootstrap, dan CSS.
+            </p>
           </div>
-          <div class="col-6 d-flex justify-content-center">
-            <div class="card-project2" data-aos="fade-up">
-              <img src="img/Semarang.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Management Magang</h5>
-                <p class="card-text">
-                  Disini saya membuat suatu project untuk mengelola data magang, fiturnya ada absensi dan mengerjakan atau memberikan tugas
-                </p>
-              </div>
-            </div>
+          <div class="card-footer bg-white border-0">
           </div>
         </div>
       </div>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+      <div class="col-md-6 col-lg-5">
+        <div class="card shadow h-100">
+          <img src="img/Project2.png" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Website Rental Barang Informatika</h5>
+            <p class="card-text text-secondary">
+              Website rental barang informatika yang dibuat menggunakan HTML,
+              CSS, dan php.
+            </p>
+          </div>
+          <div class="card-footer bg-white border-0">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
