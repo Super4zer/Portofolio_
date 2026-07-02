@@ -1,7 +1,1 @@
-disini saya akan membuat suatu portofolio menggunakan tools:
-HTML 
-CSS
-JS
-Setelah itu nanti website akan berisi tentang saya latar belakang saya selama sekolah di jurusan PPLG
-setelah itu saya akan memberikan hasil project yang pernah saya buat
-setelah itu nanti saya akan memberikan social media saya di bagian footer
+disini saya membuat suatu project portofolio menggunakan bahasa pemrograman html dan css, untuk tools tambahan saya menggunakan bootsrap dan menggunakan AOS untuk animasi slide, setelah itu project saya berisi tentang diri saya, skills saya, project saya, dan sosial media saya.

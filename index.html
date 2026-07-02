@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg px-5">
+      <a class="navbar-brand text-white" href="#"> Portfolio </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarNavAltMarkup"
+      >
+        <div class="navbar-nav">
+          <a class="nav-link text-white active" href="#hero"> Home </a>
+          <a class="nav-link text-white" href="#about"> About </a>
+          <a class="nav-link text-white" href="#skills"> Skill </a>
+          <a class="nav-link text-white" href="#project"> project </a>
+          <a class="nav-link text-white" href="#footer"> Contact </a>
+        </div>
+      </div>
+    </nav>
+    <!-- HERO -->
+
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- TEXT KIRI -->
+
+          <div class="col-lg-6">
+            <h1 data-aos="fade-right">Portofolio</h1>
+
+            <h2 data-aos="fade-right" data-aos-delay="200">
+              Muhammad Fachreza Aryanagara
+            </h2>
+            <p class="desc" data-aos="fade-right" data-aos-delay="400">
+              Pelajar yang ingin belajar lebih banyak tentang dunia pemrograman,
+              terutama di backend development. Saya ingin mengembangkan
+              kemampuan saya dalam membangun aplikasi web yang efisien dan aman.
+            </p>
+
+            <div class="button-group" data-aos="fade-up" data-aos-delay="600">
+              <a href="#about"
+                ><button class="btn-primary">Kenali Saya</button></a
+              >
+
+              <a href="#project"
+                ><button class="btn-secondary">Karya Saya</button></a
+              >
+            </div>
+          </div>
+          <!-- GAMBAR KANAN -->
+          <div class="col-lg-6 text-center">
+            <div class="profile-card" data-aos="zoom-in-up">
+              <img src="img/fachreza.jpeg" alt="Profile Image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="card about-card" data-aos="fade-up">
+              <div class="card-body text-center">
+                <h2 class="card-title">Tentang Saya</h2>
+                <p class="card-text">
+                  Halo, saya Muhammad Fachreza Aryanagara. Saya adalah seorang
+                  pelajar yang tertarik dengan dunia pemrograman, terutama
+                  backend development. Saya sedang belajar membuat aplikasi
+                  web,mengembangkan logika pemrograman, serta meningkatkan
+                  kemampuansaya dalam membangun sistem yang efisien dan aman.
+                  Sayamemiliki semangat untuk terus belajar dan mengembangkan
+                  skilldi bidang teknologi.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="card skills-card" data-aos="fade-up">
+              <div class="card-body">
+                <h2 class="card-title text-center">Kemampuan Saya</h2>
+
+                <p class="card-text text-center">
+                  Saya memiliki kemampuan dalam beberapa bahasa pemrograman
+                </p>
+
+                <div class="skill-list">
+                  <div class="skill-item">
+                    <h4>HTML</h4>
+                    <p>
+                      Untuk html sendiri saya bisa di bilang sudah cukup
+                      menguasai di bahasa pemrograman ini
+                    </p>
+                  </div>
+
+                  <div class="skill-item">
+                    <h4>CSS</h4>
+                    <p>
+                      Untuk CSS saya kurang mencukupi untuk styling web dan
+                      masih perlu banyak belajar lagi untuk menguasai CSS
+                    </p>
+                  </div>
+
+                  <div class="skill-item">
+                    <h4>JAVASCRIPT</h4>
+                    <p>
+                      Untuk javascript saya masih perlu banyak belajar lagi
+                      untuk menguasai bahasa pemrograman ini
+                    </p>
+                  </div>
+
+                  <div class="skill-item">
+                    <h4>PHP</h4>
+                    <p>
+                      Untuk php saya bisa di bilang sudah cukup menguasai di
+                      bahasa pemrograman ini
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROJECTS -->
+    <section class="project" id="project">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 d-flex justify-content-center">
+            <div class="card-project1" data-aos="fade-up">
+              <img src="img/project 1.png" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <h5 class="card-title">Management Magang</h5>
+                <p class="card-text">
+                  Disini saya membuat suatu project untuk mengelola data magang, fiturnya ada absensi dan mengerjakan atau memberikan tugas
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 d-flex justify-content-center">
+            <div class="card-project2" data-aos="fade-up">
+              <img src="img/Semarang.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Management Magang</h5>
+                <p class="card-text">
+                  Disini saya membuat suatu project untuk mengelola data magang, fiturnya ada absensi dan mengerjakan atau memberikan tugas
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
