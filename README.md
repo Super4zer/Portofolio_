@@ -1,1 +1,1 @@
-disini saya membuat suatu project portofolio menggunakan bahasa pemrograman html dan css, untuk tools tambahan saya menggunakan bootsrap dan menggunakan AOS untuk animasi slide, setelah itu project saya berisi tentang diri saya, skills saya, project saya, dan sosial media saya.
+disini saya membuat suatu project portofolio menggunakan bahasa pemrograman html dan menggunakan bootstrap, untuk tools tambahan saya menggunakan bootsrap dan menggunakan AOS untuk animasi slide, setelah itu project saya berisi tentang diri saya, skills saya, project saya, dan sosial media saya.
